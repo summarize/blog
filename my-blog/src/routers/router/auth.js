@@ -1,4 +1,5 @@
-const _import = file => import('../../views/' + file + '.vue')
+// 双箭头 函数柯里化 把接收多个参数的函数变成接受一个单一参数，并且返回接受余下的参数而返回结果的新函数
+const _import = file => () => import('../../views/' + file + '.vue')
 
 const authRoute = [
   {
