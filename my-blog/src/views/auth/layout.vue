@@ -1,5 +1,8 @@
 <template>
-  <div>这是登录页</div>
+  <div>
+    <h2>登录页</h2>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>

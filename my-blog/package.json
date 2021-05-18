@@ -15,8 +15,8 @@
     "mockjs": "^1.1.0",
     "typescript": "^4.2.4",
     "vue": "^3.0.0",
-    "vue-router": "^3.5.1",
-    "vuex": "^3.6.2"
+    "vue-router": "^4.0.8",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
