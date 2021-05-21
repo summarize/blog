@@ -1,9 +1,11 @@
 import { createStore } from 'vuex'
 import auth from './modules/auth'
+import system from './modules/system'
 
 const store = createStore({
   modules: {
-    ...auth
+    auth,
+    system
   },
   strict: false
 })

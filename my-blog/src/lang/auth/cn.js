@@ -4,5 +4,6 @@ export default {
   password: '用户密码',
   tourist: '游客',
   touristUsername: '游客名',
-  langaugeSelect: '语言选择'
+  langaugeSelect: '语言选择',
+  enter: '进入'
 }

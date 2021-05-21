@@ -18,12 +18,12 @@
         <LangSelect></LangSelect>
       </div>
     </div>
-    <a-button type="primary" @click="enterBlog()">进入</a-button>
+    <a-button type="primary" @click="enterBlog()">{{ $t('auth.enter') }}</a-button>
   </div>
 </template>
 
 <script>
-import LangSelect from '../../components/langSelect'
+import LangSelect from '@/components/langSelect'
 
 export default {
   components: { LangSelect },

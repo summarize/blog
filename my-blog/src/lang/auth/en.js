@@ -4,5 +4,6 @@ export default {
   password: 'user password',
   tourist: 'tourist',
   touristUsername: 'tourist username',
-  langaugeSelect: 'langauge select'
+  langaugeSelect: 'langauge select',
+  enter: 'enter'
 }
