@@ -8,6 +8,9 @@ import 'ant-design-vue/dist/antd.css'
 import '@/assets/iconfont/iconfont.css'
 import '@/assets/css/public.less'
 
+// 接入mock
+require('./mock')
+
 // 全局引用 ant-design-vue
 // Vue.use(Antd)
 
